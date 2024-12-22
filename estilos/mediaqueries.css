@@ -10,6 +10,10 @@ Telas grandes: acima de 1201px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* versão tablet */
+    body {
+        background-image: linear-gradient(to right, #49a09d, #5f2c82);
+    }
+
     section#login {
         width: 80vw;
     }
@@ -28,6 +32,10 @@ Telas grandes: acima de 1201px
 }
 
 @media screen and (min-width: 993px) {
+    body {
+        background-image: linear-gradient(to right, #49a09d, #5f2c82);
+    }
+   
     section#login {
         width: 950px;
     }
