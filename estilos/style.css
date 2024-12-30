@@ -19,6 +19,7 @@ html, body{
 }
 
 main{
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
@@ -68,7 +69,7 @@ form > div.campo {
     margin: 5px 0px;
 }
 
-form > div.campo > label {
+div.campo > label {
     display: none;
 }
 
@@ -96,7 +97,7 @@ form > a.botao {
     width: 100%;
     height: 40px;
     margin-top: 5px;
-    padding-top: 7px;
+    padding: 7px;
     background-color: #fff;
     border: 1px solid #49a09d;
     border-radius: 5px;
@@ -104,9 +105,10 @@ form > a.botao {
 }
 
 form > a.botao:hover {
-    background-color: #58c2be;
+    background-color: #3ea09d;
+    color: #fff;
 }
 
-form > a.botao > span {
-    font-size: 0.8em;
+form > a img{
+    width: 1em;
 }
