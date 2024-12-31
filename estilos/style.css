@@ -90,7 +90,6 @@ div.campo > input:focus-within { /* gnhar foco */
 }
 
 div.campo > img {
-    color: white;
     width: 35.5px;
     margin-left: 5px;
 }
