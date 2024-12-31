@@ -41,7 +41,7 @@ section#login{
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/fundo-login.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/fundo-azul.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -64,13 +64,37 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
+
+
 div.campo > label {
     display: none;
+}
+
+div.campo > input {
+    background-color: #61e2ded5;
+    font-size: 1em;
+    width: calc(100% - 44.7px);
+    height: 100%;
+    transform: translatey(-11px);
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+div.campo > input:focus-within { /* gnhar foco */
+    background-color: #fff;
+}
+
+div.campo > img {
+    color: white;
+    width: 35.5px;
+    margin-left: 5px;
 }
 
 form > input[type=submit] {
