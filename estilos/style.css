@@ -28,15 +28,15 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: #fff;
     width: 250px;
-    height: 515px;
+    height: 510px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -70,8 +70,6 @@ form > div.campo {
     margin: 5px 0px;
 }
 
-
-
 div.campo > label {
     display: none;
 }
@@ -79,12 +77,12 @@ div.campo > label {
 div.campo > input {
     background-color: #61e2ded5;
     font-size: 1em;
-    width: calc(100% - 44.7px);
+    width: calc(100% - 44.8px);
     height: 100%;
-    transform: translatey(-11px);
     border: none;
     border-radius: 4px;
     padding: 4px;
+    transform: translatey(-11px);
 }
 
 div.campo > input:focus-within { /* gnhar foco */
